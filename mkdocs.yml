@@ -1,4 +1,77 @@
-site_name: GWS Documentation
+site_name: Druva inSync — Google Workspace Docs
+site_description: Protect and manage Google Workspace data with Druva inSync
+site_author: Rahul Verma
 
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.integrate
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - Overview: 01-getting-started/GWS-01-01-overview.md
+      - Editions & Data: 01-getting-started/GWS-01-02-supported-editions-data-types.md
+      - Quick Start: 01-getting-started/GWS-01-03-quickstart-checklist.md
+
+  - Setup & Configuration:
+      - Connect Druva: 02-setup/GWS-02-01-connect-druva-to-gws.md
+      - User Mapping: 02-setup/GWS-02-02-user-mapping-custom-domains.md
+      - Reconfigure: 02-setup/GWS-02-03-reconfigure-gws.md
+      - Shared Drives: 02-setup/GWS-02-04-shared-drives-setup.md
+
+  - Backup:
+      - Schedule: 03-backup/GWS-03-01-schedule-backups.md
+      - On-demand (Users): 03-backup/GWS-03-02-on-demand-backup-gmail-drive.md
+      - On-demand (Shared Drives): 03-backup/GWS-03-03-on-demand-backup-shared-drives.md
+      - Policies: 03-backup/GWS-03-04-backup-policies.md
+
+  - Restore:
+      - Gmail: 04-restore/GWS-04-01-restore-gmail.md
+      - Drive: 04-restore/GWS-04-02-restore-drive.md
+      - Shared Drives: 04-restore/GWS-04-03-restore-shared-drives.md
+      - Download Data: 04-restore/GWS-04-04-download-gws-data.md
+
+  - Monitoring & Reports:
+      - Dashboard: 05-monitor/GWS-05-01-overview-dashboard.md
+      - Activity: 05-monitor/GWS-05-02-monitor-gmail-drive.md
+      - Shared Drives: 05-monitor/GWS-05-03-monitor-shared-drives.md
+      - License Usage: 05-monitor/GWS-05-04-license-consumption.md
+      - Reports: 05-monitor/GWS-05-05-reports-overview.md
+
+  - Management:
+      - Manage Apps: 06-manage/GWS-06-01-enable-disable-delete-gmail-drive.md
+      - Shared Drives: 06-manage/GWS-06-02-manage-shared-drives.md
+      - Snapshots: 06-manage/GWS-06-03-delete-snapshots.md
+      - Rollback: 06-manage/GWS-06-04-rollback.md
+
+  - Compliance:
+      - eDiscovery: 07-compliance/GWS-07-01-ediscovery-legal-hold.md
+      - WebDAV: 07-compliance/GWS-07-02-webdav-access.md
+      - Metadata: 07-compliance/GWS-07-03-metadata-webdav.md
+
+  - Troubleshooting:
+      - Backup Issues: 08-troubleshoot/GWS-08-01-troubleshoot-backup-errors.md
+      - Force Sync: 08-troubleshoot/GWS-08-02-force-sync-shared-drives.md
+      - Connection Errors: 08-troubleshoot/GWS-08-03-fix-connection-errors.md
+      - Known Issues: 08-troubleshoot/GWS-08-04-known-issues.md
+
+  - Release Notes:
+      - Current: 10-release-notes/GWS-RN-01-release-notes-current.md
+      - 2025 Archive: 10-release-notes/GWS-RN-ARCHIVE-2025.md
+      - 2024 Archive: 10-release-notes/GWS-RN-ARCHIVE-2024.md
+
+plugins:
+  - search
