@@ -1,0 +1,16 @@
+site_name: GWS Documentation
+
+theme:
+  name: material
+
+nav:
+  - Getting Started: 01-getting-started/
+  - Setup: 02-setup/
+  - Backup: 03-backup/
+  - Restore: 04-restore/
+  - Monitor: 05-monitor/
+  - Manage: 06-manage/
+  - Compliance: 07-compliance/
+  - Troubleshoot: 08-troubleshoot/
+  - Concepts: 09-concepts/
+  - Release Notes: 10-release-notes/
